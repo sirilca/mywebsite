@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sirilca/mywebsite/static/css/main.0380b88c.css",
+    "main.js": "/sirilca/mywebsite/static/js/main.3bf9e3c7.js",
+    "static/media/e-learning-development-company.jpg": "/sirilca/mywebsite/static/media/e-learning-development-company.e3bd337e2c5dfa3582a6.jpg",
+    "static/media/IMG-20230505-WA0110-01-01.jpeg": "/sirilca/mywebsite/static/media/IMG-20230505-WA0110-01-01.b10f3ba6fcfc0c1cf095.jpeg",
+    "static/media/_800x800ar.jpg": "/sirilca/mywebsite/static/media/80570e05c0da43ae_800x800ar.a0c66374cd8c154dd417.jpg",
+    "static/media/siril-high-resolution-logo-transparent.png": "/sirilca/mywebsite/static/media/siril-high-resolution-logo-transparent.d811b7f6f8a2e8a480e2.png",
+    "static/media/software.png": "/sirilca/mywebsite/static/media/software.b34cb9fba3c72006dd6d.png",
+    "static/media/code.png": "/sirilca/mywebsite/static/media/code.2e0870f212ca633e2bf9.png",
+    "static/media/ux.png": "/sirilca/mywebsite/static/media/ux.ffa3e0dd754dc923e50b.png",
+    "index.html": "/sirilca/mywebsite/index.html",
+    "main.0380b88c.css.map": "/sirilca/mywebsite/static/css/main.0380b88c.css.map",
+    "main.3bf9e3c7.js.map": "/sirilca/mywebsite/static/js/main.3bf9e3c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0380b88c.css",
+    "static/js/main.3bf9e3c7.js"
+  ]
+}
