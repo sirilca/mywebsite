@@ -1,0 +1,905 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.home {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+
+.first img {
+    width: 9vw;
+    height: auto;
+    margin-left: 5vw;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 10vw;
+}
+
+.first>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+.firstpart2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+
+.aboutme {
+    margin: 0 3vw 0 0;
+    color: black;
+    font-size: 1.2vw;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutme:hover {
+    color: rgb(164, 55, 219);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.contactme {
+
+    margin: 0 5vw 0 0;
+    border: .13vw solid rgb(164, 55, 219);
+    padding: .5vw 2vw .5vw 2vw;
+    border-radius: 10vw;
+    font-size: 1vw;
+    color: rgb(164, 55, 219);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.contactme:hover {
+    background-color: rgb(130, 37, 177);
+    color: white;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+/*********************second*********************/
+
+.second>div:first-child>h1:first-child {
+    font-family: 'Space Mono', monospace;
+    letter-spacing: .4vw;
+    color: black;
+    text-align: center;
+    font-size: 2.7vw;
+}
+
+.second>div:nth-child(2)>h1:first-child {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(164, 55, 219);
+    text-align: center;
+    font-size: 1.3vw;
+    letter-spacing: .2vw;
+    font-weight: 1200;
+}
+
+.second {
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/********************third*******************************/
+
+.third {
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.third>div:first-child {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.third img {
+    border-radius: 50%;
+    height: auto;
+    width: 18vw;
+    /* position: absolute; */
+
+}
+
+.third .details {
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), #460abe);
+    overflow: hidden;
+    transition: .6s ease-in-out;
+    width: 18vw;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+
+
+}
+
+
+.third>div:hover .details {
+    height: 100%;
+    /* width: 100%; */
+}
+
+
+.third p {
+    display: inline-block;
+    margin: 0;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 2px rgb(164, 55, 219);
+}
+
+
+.box {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(164, 55, 219);
+    bottom: 0;
+    height: 50%;
+    z-index: -2;
+}
+
+/**************************FOURTH***********************************/
+
+.fourth {
+    background-color: rgb(164, 55, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 16vw;
+}
+
+.fourth h1 {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    letter-spacing: 0.6vw;
+    word-spacing: 0.7vw;
+    font-size: 3vw;
+
+}
+
+.fourth p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.4vw;
+    font-weight: 800;
+    word-spacing: .6vw;
+    width: 60vw;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+.dummyfifth {
+    height: 18vw;
+    background-color: rgb(164, 55, 219);
+}
+
+/***********************PROJECT**************************/
+/********************************************************/
+
+.project {
+    height: 42vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.skills {
+    width: 90vw;
+    background-color: rgb(255, 255, 255);
+    height: 50vw;
+    border-radius: 1.3vw;
+    position: absolute;
+    top: -12vw;
+    box-shadow: 0 1.2px 2px rgba(0, 0, 0, 0.447);
+    overflow: hidden;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skills img {
+    height: auto;
+    width: 3.6vw;
+}
+
+.skills>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: .1vw solid rgba(164, 55, 219, 0.155);
+}
+
+.skills>div>div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 10vw;
+}
+
+.skills>div>div:first-child {
+    margin: 4vw 0 2vw 0;
+}
+
+.skills p {
+    width: 25vw;
+    font-size: 1vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.skills h1 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.skills h4 {
+    display: inline-block;
+    font-size: 1.1vw;
+    margin: 0 12vw 0 0;
+    color: rgb(164, 55, 219);
+}
+
+.skills ul {
+    list-style-type: none;
+    margin: 2vw 0 0 0;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 1vw;
+    margin: 0 10vw 2vw 0;
+    color: rgb(40, 10, 55);
+    font-weight: 600;
+}
+
+.skills ul li::before {
+    content: '';
+}
+
+
+/***********************************WORKS**************************/
+/******************************************************************/
+
+.works {
+    height: 55vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.works h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.4vw;
+}
+
+.works p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3vw;
+    letter-spacing: .1vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.workimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vw;
+    margin-top: 5vw;
+    /* filter: blur(2px); */
+}
+
+
+.workimages img {
+    width: 30vw;
+    height: 18vw;
+    border-radius: 1vw;
+    /* filter: blur(.1vw); */
+
+}
+
+.worktext p {
+    display: inline-block;
+    font-size: 1.3vw;
+}
+
+.worklink a {
+    font-size: 1vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.workimages>div {
+    border-radius: 1vw;
+    overflow: hidden;
+    position: relative;
+    width: 30vw;
+    height: 18vw;
+    border-radius: 1.5vw;
+
+}
+
+.workimages>div:first-child {
+    margin-left: 2vw;
+}
+
+.workimages>div:last-child {
+    margin-right: 2vw;
+}
+
+.worktext {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    top: 0;
+    height: 0%;
+    width: 100%;
+    overflow: hidden;
+    transition: height .5s ease-in-out;
+    background: linear-gradient(rgb(0, 0, 0, .9), rgb(164, 55, 219));
+    color: white;
+
+}
+
+.workimages>div:hover .worktext {
+    height: 50%;
+    /* width: 100%; */
+}
+
+.worklink {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    bottom: 0;
+    height: 0%;
+    width: 100%;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+    background: linear-gradient(rgb(164, 55, 219), rgb(0, 0, 0, .9));
+    color: white;
+
+
+}
+
+.workimages>div:hover .worklink {
+    height: 50%;
+    /* width: 100%; */
+}
+
+
+
+.github {
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+
+
+}
+
+.github>div {
+    border: 0.2vw solid rgb(165, 55, 219);
+    width: 18vw;
+    border-radius: 3.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.github a {
+    text-decoration: none;
+    color: rgb(165, 55, 219);
+    font-size: 1.2vw;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github>div:hover a {
+    background-color: rgb(165, 55, 219);
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+
+/******************************CODDE***************************************/
+/**************************************************************************/
+
+
+.code {
+    display: flex;
+    justify-content: center;
+    height: 2vw;
+    position: relative;
+}
+
+
+
+.code>div {
+    width: 85vw;
+    height: 11vw;
+    background-color: #141c3a;
+    border-radius: .9vw;
+    position: absolute;
+    top: -2.9vw;
+    box-shadow: 0 2px rgb(51, 14, 70);
+}
+
+
+
+/******************************FOOTER***************************************/
+/***************************************************************************/
+
+.footer>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 22vw;
+    background-color: rgb(164, 55, 219);
+    margin-top: 4vw;
+}
+
+.footer {
+    height: 40vw;
+    background-color: rgb(164, 55, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social a {
+    border-radius: 50%;
+    border: .15vw solid rgba(255, 255, 255, 0.977);
+    padding: 0.8vw;
+}
+
+.footer h3 {
+    font-size: 1vw;
+    color: white
+}
+
+.footer span {
+    font-size: 1.4vw;
+    font-weight: 900;
+    color: white;
+    width: 23vw;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500
+}
+
+.socialdp {
+    width: 6vw;
+    height: auto;
+    /* background-color: red; */
+    filter: grayscale(100);
+    filter: brightness(100);
+
+}
+
+.socialicons {
+    color: white;
+    size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .2s ease-in-out;
+}
+
+.social a:hover {
+    background-color: white;
+    transition: .2s ease-in-out;
+}
+
+.social a:hover .socialicons {
+    color: rgb(164, 55, 219);
+}
+
+/*******************************************************RESPONSIVE***************************************************/
+/********************************************************************************************************************/
+@media screen and (max-width :700px) {
+    /* *{
+        background-color: grey;
+    } */
+
+    /********************************************FIRST**********************************************/
+    .first img {
+        width: 20vw;
+        height: auto;
+        margin-left: 5vw;
+        margin-top: 3vw;
+
+    }
+
+
+    .hamburger {
+        /* display: inline !important;   */
+        display: flex !important;
+        justify-content: end;
+        align-items: center;
+        margin-right: 4vw;
+        margin-top: 3vw;
+
+    }
+
+    .first {
+        position: relative;
+        height: 30vw;
+    }
+
+    .firstpart2 {
+        position: fixed;
+        top: 0;
+        right: -20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background-color: rgb(219, 91, 55);
+        color: black;
+        height: 100vh;
+        z-index: 3;
+        width: 20vw;
+        transition: .3s;
+    }
+
+    .firstpart2.openmenu {
+        right: 0vw;
+        transition: .3s;
+    }
+
+
+    .fa-xmark.fa-solid {
+        display: block !important;
+        width: 20px;
+        margin-left: 15vw;
+        margin-top: 13vw;
+    }
+
+    .aboutme {
+        margin: 0;
+        color: white;
+        font-size: 3vw;
+        margin-top: 5vw;
+        margin-left: 1vw;
+    }
+
+    .contactme {
+        margin: 0;
+        padding: 0;
+        color: white;
+        border: 0px;
+        font-size: 3vw;
+        margin-top: 5vw;
+        margin-left: 1vw;
+
+    }
+
+    .firstpart2 span:hover {
+        color: rgb(164, 55, 219);
+        background-color: inherit;
+    }
+
+
+    /*************************SEOCND************************************/
+
+    .second>div:first-child>h1:first-child {
+        font-size: 6vw;
+        text-align: center;
+        word-spacing: 1vw;
+    }
+
+    .second>div:nth-child(2)>h1:first-child {
+        font-size: 3.9vw;
+        width: 80vw;
+        margin-top: 10vw;
+        font-weight: 900;
+    }
+
+    .second {
+        height: 80vw;
+    }
+
+    /*************************THIRD************************************/
+
+    .third {
+        height: 50vw;
+    }
+
+    .third img {
+        width: 50vw;
+    }
+
+    .third .details {
+        width: 100%;
+    }
+
+    .third p {
+        font-size: 5vw;
+        font-weight: 900;
+        text-shadow: 0 0 rgba(255, 255, 255, 0);
+        letter-spacing: .5vw;
+        margin-bottom: 2vw;
+    }
+
+    .details>p:nth-child(2) {
+        font-size: 3vw !important;
+    }
+
+    /*************************Fourth************************************/
+
+
+    .fourth {
+
+        height: 80vw;
+    }
+
+    .fourth h1 {
+        font-size: 7.5vw;
+    }
+
+    .fourth p {
+        font-size: 4.5vw;
+        width: 90vw;
+    }
+
+
+    .dummyfifth {
+        height: 30vw;
+    }
+
+
+
+    /********************************PROJECT********************************/
+
+
+    .project {
+        height: 390vw;
+
+    }
+
+
+    .skills {
+        display: grid;
+        height: 400vw;
+        top: -28vw;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: auto;
+        border-radius: 4vw;
+    }
+
+
+    .skills>div>div:nth-child(3) {
+        width: auto;
+        height: auto;
+    }
+
+    .skills>div {
+        display: grid;
+        grid-template-rows: 30vw 10vw 40vw 5vw 40vw;
+        border-bottom: .1vw solid rgba(164, 55, 219, 0.155);
+    }
+
+
+    .skills p {
+        width: 80%;
+        font-size: 4vw;
+        height: auto;
+    }
+
+    .skills img {
+        height: auto;
+        width: 15vw;
+    }
+
+
+    .skills h1 {
+        font-size: 6vw;
+        margin-bottom: 2vw;
+        font-weight: 500;
+        font-family: 'sora', sans-serif;
+    }
+
+    .skills h4 {
+        font-size: 4.1vw;
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+
+    .skills ul {
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+
+    .skills ul li {
+        font-size: 4vw;
+        margin: 3vw 0 3vw 0;
+        font-weight: 600;
+    }
+
+    .skills>div>div:first-child {
+        margin: 8vw 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills>div>div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: auto;
+
+    }
+
+    /*************************************works*********************************************/
+
+    .works {
+        height: 140vw;
+    }
+
+    .works h1 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 6vw;
+        /* font-family: 'sora', sans-serif; */
+    }
+
+    .works p {
+        font-size: 3.5vw;
+        margin-top: 5vw;
+    }
+
+    .workimages {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: 90vw;
+
+    }
+
+    .workimages img {
+        width: 60vw;
+        height: 35vw;
+    }
+
+    .workimages>div {
+        width: 60vw;
+        height: 35vw;
+        border-radius: 2.5vw;
+    }
+
+    .workimages>div:first-child {
+        margin-left: 0;
+    }
+
+    .workimages>div:last-child {
+        margin-right: 0;
+    }
+
+    .worklink a {
+        font-size: 3vw
+    }
+
+    .worktext p {
+        font-size: 5vw;
+    }
+
+    .github {
+        height: auto
+    }
+
+    .github>div {
+        width: 40vw;
+        height: 7vw
+    }
+
+    .github a {
+        font-size: 3vw;
+    }
+
+    .giticon {
+        width: 4vw;
+        height: 5vw;
+    }
+
+    /****************************************FOOTER*************************************/
+
+
+    .footer {
+        height: 70vw;
+    }
+
+    .social {
+        width: 60vw
+    }
+
+    .footer h3 {
+        font-size: 2.5vw;
+    }
+
+    .footer span {
+        font-size: 4vw;
+        font-weight: 40;
+        width: 50VW;
+    }
+
+    .footer>div {
+        height: 100%;
+
+    }
+
+    .socialicons {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .social a {
+        border-radius: 50%;
+        border: .18vw solid rgb(255, 255, 255);
+        padding: 2vw;
+    }
+
+    .socialdp {
+        width: 12vw;
+        padding-top: 3vw
+    }
+
+
+
+
+}

@@ -1,0 +1,219 @@
+.contact {
+    height: auto;
+}
+
+.imageicon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageicon img {
+    width: 9vw;
+    height: auto;
+    margin: 2.2vw 0 30px 5vw;
+}
+
+.bbutton {
+    height: 3vw;
+}
+
+.bbutton span {
+    margin-right: 3vw;
+    height: auto;
+}
+
+
+.fa-x {
+    font-size: 2vw;
+}
+
+.line {
+    border: .5px solid rgba(64, 60, 60, 0.099)
+}
+
+.heading {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 4vw 0;
+}
+
+.heading h1 {
+    text-align: center;
+    width: 60%;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.inputentry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    margin: 5vw 0 0 0;
+}
+
+.emname {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emname>div {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    height: auto;
+    justify-content: space-around;
+}
+
+input {
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 4px;
+    color: black;
+    padding: 1vw;
+}
+
+.warning {
+    color: red;
+    margin: 2vw 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.warning h4 {
+    grid-column: 7 / 8;
+}
+
+textarea {
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 4px;
+    min-height: 7vw;
+}
+
+.inputentry label {
+    height: auto;
+    margin-bottom: 8px
+}
+
+.message label {
+    margin-bottom: 8px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+
+.inputentry>div {
+    width: 600px;
+}
+
+.submit {
+    margin: 5vw 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submit span {
+    border: .2vw solid rgb(164, 55, 215);
+    padding: 1vw 3vw;
+    border-radius: 50px;
+    font-weight: bolder;
+    color: rgb(119, 33, 159)
+}
+
+.submit span:hover {
+    background-color: rgb(130, 37, 177);
+    color: white;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+
+/*******************************RESPONSIVE****************************/
+
+
+@media screen and (max-width:700px) {
+
+
+    .imageicon img {
+        width: 20vw;
+        height: auto;
+        margin-left: 5vw;
+        margin-top: 10vw;
+    }
+
+    .bbutton {
+        display: flex;
+        align-items: center;
+        margin-top: 7vw;
+    }
+
+    .fa-x {
+        font-size: 4vw;
+    }
+
+
+    .heading {
+        height: 20vw;
+
+    }
+
+    .heading h1 {
+        font-size: 4.5vw;
+        width: 97%;
+    }
+
+    .inputentry>div {
+        width: 90%;
+    }
+
+    .inputentry {
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .warning h4 {
+        grid-column: 1 / 4;
+    }
+
+    .emname {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .emname>div {
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+    input {
+        width: 100%;
+        height: 8vw;
+    }
+
+    textarea {
+        min-height: 16vw;
+    }
+
+    .submit span {
+        width: 90%;
+        text-align: center;
+        padding: 2.1vw 0;
+    }
+
+
+
+
+
+
+
+}
