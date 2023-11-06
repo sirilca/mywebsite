@@ -13,7 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://sirilca.github.io/mywebsite/",
+  "homepage": "https://github.com/sirilca/mywebsite/blob/master/public/index.html",
   "scripts": {
     "start": "react-scripts start",
       "predeploy": "npm run build",
