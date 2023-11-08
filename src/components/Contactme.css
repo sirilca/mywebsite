@@ -93,6 +93,7 @@ textarea {
     border: 1px solid rgba(0, 0, 0, 0.288);
     border-radius: 4px;
     min-height: 7vw;
+    padding: 1vw;
 }
 
 .inputentry label {
@@ -121,7 +122,7 @@ textarea {
     justify-content: center;
 }
 
-.submit span {
+.submit button {
     border: .2vw solid rgb(164, 55, 215);
     padding: 1vw 3vw;
     border-radius: 50px;
@@ -129,7 +130,7 @@ textarea {
     color: rgb(119, 33, 159)
 }
 
-.submit span:hover {
+.submit button:hover {
     background-color: rgb(130, 37, 177);
     color: white;
     transition: .2s ease-in-out;
