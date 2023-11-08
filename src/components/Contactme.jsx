@@ -20,7 +20,7 @@ function Contactme() {
       emailjs.sendForm('service_qup782i', 'template_ryvb5pb', formRef.current, 'XeRBFKh5BwdgB76jJ')
       .then(res=>console.log(res))
       .catch(err=>console.log("error occured",err))
-      nav('/')
+      nav(-1)
     }
   }
 
