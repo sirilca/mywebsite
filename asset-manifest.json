@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.0380b88c.css",
-    "main.js": "/mywebsite/static/js/main.8e80cf06.js",
+    "main.css": "/mywebsite/static/css/main.fcdb2877.css",
+    "main.js": "/mywebsite/static/js/main.0e4f1084.js",
     "static/media/e-learning-development-company.jpg": "/mywebsite/static/media/e-learning-development-company.e3bd337e2c5dfa3582a6.jpg",
     "static/media/IMG-20230505-WA0110-01-01.jpeg": "/mywebsite/static/media/IMG-20230505-WA0110-01-01.b10f3ba6fcfc0c1cf095.jpeg",
     "static/media/_800x800ar.jpg": "/mywebsite/static/media/80570e05c0da43ae_800x800ar.a0c66374cd8c154dd417.jpg",
@@ -10,11 +10,11 @@
     "static/media/code.png": "/mywebsite/static/media/code.2e0870f212ca633e2bf9.png",
     "static/media/ux.png": "/mywebsite/static/media/ux.ffa3e0dd754dc923e50b.png",
     "index.html": "/mywebsite/index.html",
-    "main.0380b88c.css.map": "/mywebsite/static/css/main.0380b88c.css.map",
-    "main.8e80cf06.js.map": "/mywebsite/static/js/main.8e80cf06.js.map"
+    "main.fcdb2877.css.map": "/mywebsite/static/css/main.fcdb2877.css.map",
+    "main.0e4f1084.js.map": "/mywebsite/static/js/main.0e4f1084.js.map"
   },
   "entrypoints": [
-    "static/css/main.0380b88c.css",
-    "static/js/main.8e80cf06.js"
+    "static/css/main.fcdb2877.css",
+    "static/js/main.0e4f1084.js"
   ]
 }
